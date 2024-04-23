@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, TextInput } from 'react-native';
+import { StyleSheet, Text, View, TextInput , Button } from 'react-native';
 import React from 'react';
 
 export default function Form() {
@@ -15,6 +15,12 @@ export default function Form() {
          placeholder="Ex. 75,865"
          keyboardType="numeric"
          />
+
+         <Button
+           title="Calcular IMC"
+           color="#61dafb"
+         />
+
     </View>
     </View>
   );
